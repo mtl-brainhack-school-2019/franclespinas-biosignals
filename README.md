@@ -31,7 +31,7 @@ Other noises include muscle contractions, movements, moving cables.
 
 ## Preprocessing algorithm and necessary package modification ##
 
-![overall structure] (overall-struc-illus.pdf)
+![overall structure] (preproc-flow-chart.jpg)
 
 
 
