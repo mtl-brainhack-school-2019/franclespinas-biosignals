@@ -13,13 +13,18 @@ Specific packages include
 ## Sources of interference to cancel out
 # 1. fMRI - gradient artifacts
 ECG signals recorded in fMRI are principally polluted by gradient artifacts related to the radio-frequency pulse and magnetism of scanner. Echo-planar imaging (brain imaging) uses Gradient-Echo sequences that often include multi-band factor (i.e. multiple slices at a time). Simple maths for a 60-slices sequence with multi-band factor of 4 and 1,490s repetition time : 60/4 = 15 shots per TR. How many gradients are there per TR? 15/1490 = 10.067. So approximately 100ms separate adjacent gradients.
+
 ![Polluted ECG](polluted-ecg-example.jpg "polluted ECG")
+
 **This can be handled with 4th order central-moment filter** 
+
 [Reference on this filter design](https://www.ncbi.nlm.nih.gov/pubmed/28981438/)
+----------------------------------------------------------------------------
 # 2. Impulsive noise/sudden large shifts in amplitude
 Other noises include muscle contractions, movements, moving cables. 
 **This can be handled by linear interpolation and non linear transformations**
 
+============================================================================
 
 ## Preprocessing algorithm and necessary package modification
 ![overall structure] (overall-struc-illus.pdf)
