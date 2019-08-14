@@ -1,7 +1,10 @@
 # Preprocessing pipeline for ECG signals recorded in fMRI #
 
 This repo details the different preprocessing steps required for denoising and amplification of target signal. 
-The aim of this pipeline is to describe signal quality using operational criterions that will clssify the signal as usable or unusable. As part of Courtois-Neuromod project, this repo will eventually be merged to the project's GitHub. ![Neuromod](logo-vector-rgb.png)
+The aim of this pipeline is to describe signal quality using operational criterions that will clssify the signal as usable or unusable.
+As part of Courtois-Neuromod project, this repo will eventually be merged to the project's GitHub. ![Neuromod](logo-vector-rgb.png)
+
+___Vitally important info to consider before reading this:___From what I understand, there is currently no package available in python that treats fMRI noise on ECG signal. The plan is to add eventually add this feature to currently existing biosignal analysis packages.
 
 ## TODO LIST ##
 - [x] start a .md file that summarizes the intent of and principal refs for the project
