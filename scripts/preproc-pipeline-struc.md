@@ -27,14 +27,14 @@ TTL | ECG | PPG | RSP | EDA
  0  |  x  |  x  |  x  |  x
 
 Let's say
-	
-	1st row is a scannerOFF segment :(0) parse and keep this clean segment for direct process, (1) extract cardiac cycles and (2) add/save to quality model, (3) pickle dump dataframe and name block00
-	
-	2nd and 3rd rows are scannerON segments :(0) parse and keep noisy segment for preprocessing, (1) create pandas object containing every channel (2) pickle dump dataframe and name block01 (or blocknn)
 
-_do this for every segment_
+- [ ] 1st row is a scannerOFF segment :(0) parse and keep this clean segment for direct process, (1) extract cardiac cycles and (2) add/save to quality model, (3) pickle dump dataframe and name block00
+	
+- [ ] 2nd and 3rd rows are scannerON segments :(0) parse and keep noisy segment for preprocessing, (1) create pandas object containing every channel (2) pickle dump dataframe and name block01 (or blocknn)
 
-***Build a for loop*** that passes through TTL channel and that concatenates segments of maximal values while ignoring other segments
+					_do this for every segment, so_ :
+
+***Build a for loop that passes through TTL channel and that concatenates segments of maximal values while ignoring other segments***
 
 ## 3. Preprocessing noisy ECG ##
 
