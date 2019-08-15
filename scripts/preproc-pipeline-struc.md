@@ -32,7 +32,7 @@ Let's say
 	
 - [ ] 2nd and 3rd rows are scannerON segments :(0) parse and keep noisy segment for preprocessing, (1) create pandas object containing every channel (2) pickle dump dataframe and name block01 (or blocknn)
 
-					do this for every segment, so :
+_do this for every segment, so_ :
 
 ***Build a for loop that passes through TTL channel and that concatenates segments of maximal values while ignoring other segments***
 
