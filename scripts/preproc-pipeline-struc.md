@@ -1,4 +1,4 @@
-#Detailed structure of pipeline#
+# Detailed structure of pipeline #
 
 ## 1. Data import ##
 **Read BIOPAC files**, e.g. <name-of-file>.acq
