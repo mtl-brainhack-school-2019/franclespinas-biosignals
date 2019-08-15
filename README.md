@@ -9,12 +9,8 @@ ___Vitally important info to consider before reading this:___ From what I unders
 ## TODO LIST ##
 - [x] start a .md file that summarizes the intent of and principal refs for the project
 - [x] build flow chart of preprocessing steps
-- [ ] detail each step of the flow chart with .md file in "scripts" directory
+- [x] detail each step of the flow chart with .md file in "scripts" directory
 - [ ] start clean jupyter notebook with the code I know is needed and will stay
-	- [ ] import packages
-	- [ ] import test data
-	- [ ] key definition of panda object returned by readacqknowledge function (bioread repo)
-	- [ ] basic parsing of time series
 - [ ] add draft notebooks in which I test specific filter design
 - [ ] save parsed data in pickle
 
