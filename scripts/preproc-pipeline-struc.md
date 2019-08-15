@@ -40,19 +40,19 @@ Give variable names to each channel, or dict keys.
 
 ## 3. Preprocessing noisy ECG ##
 
-	 - [x] Linear interpolation to rescale large shifts in amplitude
-	 - [ ] 4th order central-moment filter
-		1. time window definition: interval between 2 adjacent gradients, approx. a hundred samples
-		2. filter design: convoluting function that will compute the distribution of amplitudes in ecg and normalize it.The following numpy function computes the statistic :
-			
-			numpy.moment (sample, moment=4)
+ - [x] Linear interpolation to rescale large shifts in amplitude
+ - [ ] 4th order central-moment filter
+	1. time window definition: interval between 2 adjacent gradients, approx. a hundred samples
+	2. filter design: convoluting function that will compute the distribution of amplitudes in ecg and normalize it.The following numpy function computes the statistic :
+		
+		numpy.moment (sample, moment=4)
 
-		3. apply filter to timeseries (blocknn's ecg)
+	3. apply filter to timeseries (blocknn's ecg)
 
-	 - [x] Bandpass filter _4th order central-moment filtered ecg_ , or '4th-ecg' - returns 'bp-ecg'
-	 - [x] Segmenter: pekkanen segmentation based on first-order gaussian differentiator
-	 - [ ] Cardiac cycles verification: sklearn functions to minimize mean square error of extracted cardiac cycles over quality
-	 - [ ] plot results as follows : plot superimposed quality model and extracted cardiac-cycles, plot tachogram that illustrates HRV in time - that allows visual inspection
-	 - [ ] dump feature data in pickle
+ - [x] Bandpass filter _4th order central-moment filtered ecg_ , or '4th-ecg' - returns 'bp-ecg'
+ - [x] Segmenter: pekkanen segmentation based on first-order gaussian differentiaton
+ - [ ] Cardiac cycles verification: sklearn functions to minimize mean square error of extracted cardiac cycles over quality
+ - [ ] plot results as follows : plot superimposed quality model and extracted cardiac-cycles, plot tachogram that illustrates HRV in time - that allows visual inspection
+ - [ ] dump feature data in pickle
 
 ***YAY***
