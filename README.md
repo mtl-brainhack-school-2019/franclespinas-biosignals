@@ -8,12 +8,12 @@ As part of Courtois-Neuromod project, the aim of my subproject is to eventually 
 
 ___Vitally important info to consider before reading this:___ From what I understand, there is currently no package available in python that treats fMRI noise on ECG signal. The plan is to eventually add this feature to currently existing biosignal analysis packages.
 
-## TODO LIST ##
+## Delivrables for brainhack ##
 - [x] start a .md file that summarizes the intent of and principal refs for the project
 - [x] build flow chart of preprocessing steps
 - [x] detail each step of the flow chart with .md file in "scripts" directory
-- [ ] start clean jupyter notebook with the code I know is needed and will stay
-- [ ] add draft notebooks in which I test specific filter design
+- [ ] Use the detailed markdown and start clean jupyter notebook with the code I know is needed, I can do, and will stay
+- [ ] add draft notebooks in which I test specific filter design - TO BE ADDED AS A NEW FEATURE IN PACKAGE - 4th order central moment
 - [ ] save parsed data in pickle
 
 
