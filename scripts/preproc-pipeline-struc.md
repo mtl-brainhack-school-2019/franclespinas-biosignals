@@ -34,16 +34,16 @@ Let's say
 
 _do this for every segment, so_ :
 
-***Build a for loop that passes through TTL channel and that concatenates segments of maximal values while ignoring other segments***
+- [ ] ***Build a for loop that passes through TTL channel and that concatenates segments of maximal values while ignoring other segments***
 
-Give variable names to each channel, or dict keys.
+- [ ] Give variable names to each channel, or dict keys.
 
-## 3. Preprocessing noisy ECG ##
-
+## 3. Preprocessing blocks of noisy ECG ##
+### Steps required ### 
  - [x] Linear interpolation to rescale large shifts in amplitude
  - [ ] 4th order central-moment filter
 	1. time window definition: interval between 2 adjacent gradients, approx. a hundred samples
-	2. filter design: convoluting function that will compute the distribution of amplitudes in ecg and normalize it.The following numpy function computes the statistic :
+	2. filter design: transfer function that will compute the distribution of amplitudes in sliding time window ecg and normalize it.The following numpy function computes the statistic :
 		
 		numpy.moment (sample, moment=4)
 
