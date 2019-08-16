@@ -29,7 +29,7 @@ Specific packages for biosignal analysis include
 ## Sources of interference to cancel out ##
 
 ### 1. fMRI - gradient artifacts ###
-ECG signals recorded in fMRI are principally polluted by gradient artifacts related to the radio-frequency pulse and magnetism of scanner. Echo-planar imaging (brain imaging) uses Gradient-Echo sequences that often include multi-band factor (i.e. multiple slices at a time). Simple maths for a 60-slices sequence with multi-band factor of 4 and 1,490s repetition time : 60/4 = 15 shots per TR. How many gradients are there per TR? 15/1490 = 10.067. So approximately 100ms separate adjacent gradients.
+ECG signals recorded in fMRI are principally polluted by gradient artifacts related to the radio-frequency pulse and magnetism of scanner. Echo-planar imaging (brain imaging) uses Gradient-Echo sequences that often include multi-band factor (i.e. multiple slices at a time). Simple maths for a 60-slices sequence with multi-band factor of 4 and 1,490s repetition time : 60/4 = 15 shots per TR. How many gradients are there per TR? 15/1490 = 10.067 Hz. So approximately 100ms separate adjacent gradients.
 
 ![Polluted ECG](polluted-ecg-example.jpg "polluted ECG")
 
