@@ -2,11 +2,12 @@
 This repo details the different preprocessing steps required for denoising and amplification of target signal. 
 The aim of this pipeline is to describe signal quality using operational criterion that will categorize the signal as usable or unusable.
 
+From what I understand, there is currently no package available in _python_ that treats fMRI noise on ECG signal. The plan is to eventually add this feature to currently existing biosignal analysis packages.
+
 ## Background ##
 I'm an undergrad in cognitive neuroscience, currently completing my last credits.
-As part of Courtois-Neuromod project, the aim of my subproject is to eventually inform the AI model with physiological modalities. This repo could eventually be merged to the project's GitHub. ![Neuromod](logo-vector-rgb.png)
+As part of Courtois-Neuromod project, the aim of my subproject is to eventually inform the AI model of physiological modalities. This repo could eventually be merged to the project's GitHub. ![Neuromod](logo-vector-rgb.png)
 
-___Vitally important info to consider before reading this:___ From what I understand, there is currently no package available in python that treats fMRI noise on ECG signal. The plan is to eventually add this feature to currently existing biosignal analysis packages.
 
 ## Delivrables for brainhack ##
 - [x] a markdown file that summarizes the intent of and principal refs for the project
