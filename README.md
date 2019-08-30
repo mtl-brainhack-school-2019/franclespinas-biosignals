@@ -13,10 +13,13 @@ As part of Courtois-Neuromod project, the aim of my subproject is to eventually 
 - [x] a markdown file that summarizes the intent of and principal refs for the project
 - [x] a flow chart of preprocessing steps
 - [x] a markdown detailing each step of the flow chart  in "scripts" directory
-- [ ] Use the detailed markdown and start a clean jupyter notebook with the code I know I can do, and will stay
-- [ ] a draft notebook in which I test specific filter design - TO BE ADDED AS A NEW FEATURE IN PACKAGE - 4th order central moment
+- [x] Use the detailed markdown and start a clean jupyter notebook with the code I know I can do, and will stay
+- [x] a draft notebook in which I test specific filter design ~~TO BE ADDED AS A NEW FEATURE IN PACKAGE - 4th order central moment~~
+	- [ ] Benchmark different basic preprocessing techniques - measure their detection perfo
+	- [x] Raise issue on Neurokit's github for help
+	- [x] Reach out to the authors who made the higher-order statistics filter design
 - [ ] save parsed data in pickle
-- [ ] a post on twitter to share my repo, publicize the Montreal brainhack
+- [ ] ~~a post on twitter to share my repo, publicize the Montreal brainhack~~
 
 
 
