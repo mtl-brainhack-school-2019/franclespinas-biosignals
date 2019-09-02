@@ -24,7 +24,7 @@ As part of Courtois-Neuromod project, the aim of my subproject is to eventually 
 
 
 ## Python packages used ##
-Of course, the use of numpy, pandas, pickle, seaborn, and matplotlib is imperative for data organization and vizualisation.
+Of course, numpy, pandas, pickle, and matplotlib are imperative for data organization and vizualisation.
 Specific packages for biosignal analysis include
 * __Neurokit__ [docs](https://www.neurokit.readthedocs.io/en/latest/)
 * __BioSPPy__ [docs](https://www.biosppy.readthedocs.io/en/stable/)
