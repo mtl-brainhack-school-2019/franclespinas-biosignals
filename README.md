@@ -17,7 +17,7 @@ I intended to build a flow chart of my future preprocessing pipeline by using Dr
 ![](preproc-flow-chart.png)
 
 ### Third accomplishment - filtering techniques comparison
-The evaluation of the signal's quality is essential to describe the performance of filtering techniques. The peculiarity of gradient artefacts on ECG signals makes it difficult to only keep the pertinent information (heart beat waveform). ![1](illustration/clean_signal_superposition.png) ![2](illustration/fmri-polluted-signal_superposition.png)
+The evaluation of the signal's quality is essential to describe the performance of filtering techniques. The peculiarity of gradient artefacts on ECG signals makes it difficult to only keep the pertinent information (heart beat waveform). **1** ![1](illustration/clean_signal_superposition.png) **2** ![2](illustration/fmri-polluted-signal_superposition.png)
 
 **Legend** : Here, we can visualize the effect of a *Finite Impulse Response filter* using nonlinear transformations to verify the peak detection first implemented by [Kathirvel et al.2001](http://link.springer.com/article/10.1007/s13239-011-0065-3/fulltext.html). One can appreciate of detection accuracy differs from a signal to another.
 
